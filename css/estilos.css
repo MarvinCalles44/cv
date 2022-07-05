@@ -1,0 +1,361 @@
+/* CONTENEDOR DE TODA LA PAGINA */
+
+.contenedor {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  padding: 30px;
+  flex-direction: row;
+}
+
+body {
+  background-color: white;
+}
+
+/* CONTENEDORES MAIN Y ASIDE */
+
+#main {
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  flex-direction: column;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 50px;
+}
+
+#aside {
+  background-color: #ffd803;
+  width: 300px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+}
+
+/* CONTENEDORES DENTRO DEL ASIDE: FOTO DE PERFIL, NOMBRE PUESTO, CONTACTO Y ACERCA DE MI */
+
+.foto-perfil {
+  background-color: #ffd803;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.foto {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  background-size: cover;
+  background-image: url("../img/perfilcv.jpg");
+}
+
+.nombre {
+  height: auto;
+  background-color: #ffd803;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  font-family:'Kanit', sans-serif;
+}
+
+.puesto {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffd803;
+  gap: 15px;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+  border-style: solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.telefono {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.correo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.acerca {
+  background-color: #ffd803;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CONTENEDOR CON REDES SOCIALES Y EDUCACION */
+
+.redes-sociales {
+  display: flex;
+  padding: 14px;
+  background-color: #d1d1e9;
+  justify-content: flex-end;
+}
+
+.redes-sociales > .facebook {
+  border-radius: 50px;
+  background-size: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.redes-sociales > .linkedin {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+  background-size: cover;
+  background-image: url("../img/linkedin35.png");
+  width: 35px;
+  height: 35px;
+}
+
+.redes-sociales > .github {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+}
+
+.redes-sociales > .gmail {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50px;
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+}
+
+.gmail:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.github:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.facebook:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.linkedin:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.contenedor-educacion {
+  width: auto;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  background-color: #d1d1e9;
+  padding: 10px;
+  gap: 10px;
+}
+
+.educacion {
+  width: 810px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  background-color: #d1d1e9;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.stick {
+  background-color: #ffd803;
+  height: auto;
+  width: 4px;
+}
+
+.titulo-educacion {
+  background-color: #d1d1e9;
+  color: rgb(0, 0, 0);
+  font-family: 'Kanit', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.icono-educacion{
+  padding-top:10px;
+  background-color: #d1d1e9;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.icono-lapiz{
+  color: #ffd803;
+  background-color: #d1d1e9;
+  font-size: 35px;
+}
+
+.anio{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grados{
+    background-color: #d1d1e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lugar-estudio{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-experiencia {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.contenedor-habilidades {
+  width: auto;
+  height: auto;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.habilidades{
+  height: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.icono-texto-hab{
+  display: flex;
+  padding-left: 20px;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Kanit', sans-serif
+}
+
+.icono-hab{
+  color: #ffd803;
+  background-color: rgb(255, 255, 255);
+  font-size: 35px;
+  
+}
+
+.icono-texto-exp{
+  display: flex;
+  padding-left: 20px;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Kanit', sans-serif
+}
+
+.icono-exp{
+  color: #ffd803;
+  background-color: rgb(255, 255, 255);
+  font-size: 35px;
+  
+}
+
+.css{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.html{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.js{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Experiencia{
+  font-size: 20px;
+}
+
+@media (max-width:600px){
+  .contenedor {
+    width: auto;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+  }
+
+  #main {
+
+    width: auto;
+
+  }
+
+  .educacion{
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+    
+  }
+
+  .stick{
+    height: 2px;
+    width: auto;
+    color: aliceblue;
+  }
+
+  #aside{
+    width: auto;
+  }
+
+  .habilidades{
+    justify-content: center;
+  }
+}
+
